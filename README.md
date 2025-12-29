@@ -180,6 +180,103 @@ It also introduces **instance vs class members** and **access modifiers**, stren
 
 ---
 
+### 🔹 `keywords` branch
+This branch focuses on understanding and applying important **C# keywords** such as `static`, `this`, `readonly`, and the `is` operator through **real-world, object-oriented programs**.  
+These programs help strengthen clarity on **shared data, object initialization, immutability, and type checking**.
+
+#### 📁 Levels
+- ## 📘 Level 01 - keywords practices
+---
+
+## 📝 Practice Programs
+
+### 🏦 Bank Account System
+- Create a `BankAccount` class to manage bank accounts.
+- Use:
+  - `static` variable `bankName` shared across all accounts.
+  - `static` method `GetTotalAccounts()` to display total accounts.
+  - `this` keyword to resolve ambiguity while initializing `AccountHolderName` and `AccountNumber`.
+  - `readonly` variable `AccountNumber` to prevent modification after assignment.
+  - `is` operator to verify if an object is a `BankAccount` before displaying details.
+
+---
+
+### 📚 Library Management System
+- Create a `Book` class to manage library books.
+- Use:
+  - `static` variable `LibraryName` shared across all books.
+  - `static` method `DisplayLibraryName()` to display library name.
+  - `this` keyword to initialize `Title`, `Author`, and `ISBN`.
+  - `readonly` variable `ISBN` to ensure book identity remains unchanged.
+  - `is` operator to check if an object is a `Book` before displaying details.
+
+---
+
+### 🧑‍💼 Employee Management System
+- Design an `Employee` class to manage employee records.
+- Use:
+  - `static` variable `CompanyName` common for all employees.
+  - `static` method `DisplayTotalEmployees()` to show employee count.
+  - `this` keyword to initialize `Name`, `Id`, and `Designation`.
+  - `readonly` variable `Id` to prevent modification.
+  - `is` operator to validate employee objects before printing details.
+
+---
+
+### 🛒 Shopping Cart System
+- Create a `Product` class to manage shopping cart items.
+- Use:
+  - `static` variable `Discount` shared among all products.
+  - `static` method `UpdateDiscount()` to modify discount percentage.
+  - `this` keyword to initialize `ProductName`, `Price`, and `Quantity`.
+  - `readonly` variable `ProductID` for unique product identification.
+  - `is` operator to validate product objects before processing.
+
+---
+
+### 🎓 University Student Management
+- Create a `Student` class to manage student records.
+- Use:
+  - `static` variable `UniversityName` shared by all students.
+  - `static` method `DisplayTotalStudents()` to show enrollment count.
+  - `this` keyword to initialize `Name`, `RollNumber`, and `Grade`.
+  - `readonly` variable `RollNumber` to ensure immutability.
+  - `is` operator to validate student objects before operations.
+
+---
+
+### 🚗 Vehicle Registration System
+- Create a `Vehicle` class to manage vehicle registrations.
+- Use:
+  - `static` variable `RegistrationFee` common to all vehicles.
+  - `static` method `UpdateRegistrationFee()` to modify the fee.
+  - `this` keyword to initialize `OwnerName`, `VehicleType`, and `RegistrationNumber`.
+  - `readonly` variable `RegistrationNumber` for unique identification.
+  - `is` operator to verify vehicle objects before displaying details.
+
+---
+
+### 🏥 Hospital Management System
+- Create a `Patient` class to manage hospital patient data.
+- Use:
+  - `static` variable `HospitalName` shared among all patients.
+  - `static` method `GetTotalPatients()` to count admitted patients.
+  - `this` keyword to initialize `Name`, `Age`, and `Ailment`.
+  - `readonly` variable `PatientID` to uniquely identify patients.
+  - `is` operator to validate patient objects before displaying details.
+
+---
+
+## 🎯 Learning Outcomes
+
+- Understanding shared vs object-specific data using `static`
+- Using `this` keyword to resolve naming conflicts
+- Enforcing immutability with `readonly`
+- Performing safe type checking using the `is` operator
+- Applying C# keywords in real-world OOP scenarios
+
+---
+
 ## 👤 Author
 **Prashant Varshney**  
 B.Tech CSE (Data Analytics)  
