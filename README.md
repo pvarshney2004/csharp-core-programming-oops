@@ -277,6 +277,97 @@ These programs help strengthen clarity on **shared data, object initialization, 
 
 ---
 
+### 🔹 `📊diagrams` branch
+This branch contains **UML diagrams** created to visually represent system design and object interactions for various problem statements.  
+The diagrams help in understanding **class structure, object relationships, and execution flow** before implementation.
+
+🛠 **Tool Used:** Lucidchart  
+📐 **Diagram Types Covered:** Class Diagram, Object Diagram, Sequence Diagram
+
+---
+
+## 📘 Sample Problem 1: School Results Application
+
+### 🧩 Class Diagram
+**Classes Involved:**
+- Student
+- Subject
+- GradeCalculator
+**Relationships:**
+- A `Student` has multiple `Subject` entries (**Aggregation**).
+- `GradeCalculator` computes results for a `Student`.
+
+---
+
+### 🧱 Object Diagram
+**Example Objects:**
+- Student: `John`
+- Subjects:
+  - Maths → Marks: 90
+  - Science → Marks: 85
+
+---
+
+### 🔄 Sequence Diagram
+**Scenario:**
+- A student requests their grade based on marks obtained in subjects.
+**Actors:**
+- Student
+- GradeCalculator
+
+**Flow:**
+1. Student submits subject marks and request for grade calculation.
+2. GradeCalculator processes marks.
+3. Final grade is returned to the student.
+
+---
+
+## 📘 Sample Problem 2: Grocery Store Bill Generation Application
+
+### 🧩 Class Diagram
+**Classes Involved:**
+- Customer
+- Product
+- BillGenerator
+**Relationships:**
+- A `Customer` purchases multiple `Product` items (**Composition**).
+- `BillGenerator` calculates the total bill for the customer.
+
+---
+
+### 🧱 Object Diagram
+**Example Objects:**
+- Customer: `Alice`
+- Products:
+  - Apples → 2 kg @ $3/kg
+  - Milk → 1 liter @ $2/liter
+
+---
+
+### 🔄 Sequence Diagram
+**Scenario:**
+- A customer checks out at the grocery store and receives the final bill.
+**Actors:**
+- Customer
+- BillGenerator
+
+**Flow:**
+1. Customer selects products and then checkout.
+2. BillGenerator calculates item-wise cost.
+3. Total bill amount is generated and displayed.
+
+---
+
+## 🎯 Learning Outcomes
+
+- Understanding system design using UML diagrams
+- Visualizing object relationships and lifecycles
+- Learning aggregation vs composition
+- Mapping real-world scenarios to class structures
+- Improving design clarity before coding
+
+---
+
 ## 👤 Author
 **Prashant Varshney**  
 B.Tech CSE (Data Analytics)  
