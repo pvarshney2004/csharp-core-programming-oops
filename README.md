@@ -293,6 +293,7 @@ The diagrams help in understanding **class structure, object relationships, and 
 - Student
 - Subject
 - GradeCalculator
+
 **Relationships:**
 - A `Student` has multiple `Subject` entries (**Aggregation**).
 - `GradeCalculator` computes results for a `Student`.
@@ -311,6 +312,7 @@ The diagrams help in understanding **class structure, object relationships, and 
 ### 🔄 Sequence Diagram
 **Scenario:**
 - A student requests their grade based on marks obtained in subjects.
+
 **Actors:**
 - Student
 - GradeCalculator
@@ -329,6 +331,7 @@ The diagrams help in understanding **class structure, object relationships, and 
 - Customer
 - Product
 - BillGenerator
+
 **Relationships:**
 - A `Customer` purchases multiple `Product` items (**Composition**).
 - `BillGenerator` calculates the total bill for the customer.
@@ -347,6 +350,7 @@ The diagrams help in understanding **class structure, object relationships, and 
 ### 🔄 Sequence Diagram
 **Scenario:**
 - A customer checks out at the grocery store and receives the final bill.
+
 **Actors:**
 - Customer
 - BillGenerator
