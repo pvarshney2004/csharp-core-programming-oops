@@ -372,6 +372,47 @@ The diagrams help in understanding **class structure, object relationships, and 
 
 ---
 
+### 🔹 `object-modelling` branch
+This branch focuses on **object-oriented design and modeling real-world systems** using core OOP relationships such as **Association, Aggregation, and Composition**.  
+The problems emphasize how objects interact, depend on each other, and communicate within a system.
+
+---
+
+## 📝 Practice Problems
+
+- **Library and Books (Aggregation)**  
+  Model a library that contains multiple books where books can exist independently.
+
+- **Bank and Account Holders (Association)**  
+  Represent the association between a bank and its customers who open and manage accounts.
+
+- **Company and Departments (Composition)**  
+  Design a company where departments and employees cannot exist without the company.
+
+- **School, Students, and Courses (Association & Aggregation)**  
+  Model a school system where students enroll in multiple courses using many-to-many relationships.
+
+- **University, Faculties, and Departments (Composition & Aggregation)**  
+  Create a university where departments depend on it, while faculty members exist independently.
+
+- **Hospital, Doctors, and Patients (Association & Communication)**  
+  Represent doctor–patient consultations with multiple doctors and patients interacting.
+
+- **E-Commerce Platform (Customers, Orders, and Products)**  
+  Design an e-commerce system where customers place orders and orders aggregate products.
+
+---
+
+## 🎯 Learning Outcomes
+
+- Understand and apply **association, aggregation, and composition**
+- Model **real-world object relationships**
+- Practice **object communication through methods**
+- Improve **system design and UML understanding**
+- Strengthen **object-oriented thinking**
+
+---
+
 ## 👤 Author
 **Prashant Varshney**  
 B.Tech CSE (Data Analytics)  
