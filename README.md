@@ -422,6 +422,7 @@ inheritance**. The problems highlight **polymorphism, method overriding, and int
 ## 📝 Practice Problems
 
 - **Animal Hierarchy (hierarchical)**
+  
   Create an Animal base class with Dog, Cat, and Bird subclasses that override behavior to demonstrate polymorphism.
 
 - **Employee Management System (hierarchical)**
