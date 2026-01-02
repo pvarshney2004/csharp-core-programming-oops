@@ -413,45 +413,65 @@ The problems emphasize how objects interact, depend on each other, and communica
 
 ---
 
-### 🔹 `inheritance` branch
-This branch focuses on **Inheritance in Object-Oriented Programming**, demonstrating how classes can reuse, extend, and override behavior using **single, multilevel, and hybrid
-inheritance**. The problems highlight **polymorphism, method overriding, and interface-based design**.
+### 🔹 `inheritance` Branch
+This branch focuses on **Inheritance in Object-Oriented Programming (OOP)** using C#. It demonstrates how classes can **reuse, extend, and override behavior** through **single, hierarchical, multilevel, and hybrid inheritance**. 
+The practice problems emphasize core OOP concepts such as **polymorphism, method overriding, base–derived class relationships, and interface-based design**.
 
 ---
 
 ## 📝 Practice Problems
 
-- **Animal Hierarchy (hierarchical)**
-  
-  Create an Animal base class with Dog, Cat, and Bird subclasses that override behavior to demonstrate polymorphism.
+### 🔸 Hierarchical Inheritance
 
-- **Employee Management System (hierarchical)**
-  Model different employee types (Manager, Developer, Intern) inheriting from a common Employee class with role-specific details.
+- **Animal Hierarchy**  
+  Create an `Animal` base class with `Dog`, `Cat`, and `Bird` subclasses that override
+  behavior to demonstrate polymorphism.
 
-- **Vehicle and Transport System (hierarchical)** 
-  Design a Vehicle hierarchy (Car, Truck, Motorcycle) and demonstrate dynamic method dispatch using polymorphism.
-  
-- **Library Management with Books and Authors (single)** 
-  Implement single inheritance where Author extends Book and displays combined book–author information.
+- **Employee Management System**  
+  Model different employee types (`Manager`, `Developer`, `Intern`) inheriting from a
+  common `Employee` class with role-specific attributes and behaviors.
 
-- **Online Retail Order Management (multilevel)**
-  Build a multilevel hierarchy with Order → ShippedOrder → DeliveredOrder to represent order lifecycle and status tracking.
+- **Vehicle and Transport System**  
+  Design a `Vehicle` hierarchy (`Car`, `Truck`, `Motorcycle`) and demonstrate dynamic
+  method dispatch using polymorphism.
 
-- **Restaurant Management System (hybrid)** 
-  Simulate hybrid inheritance using a Person superclass and a Worker interface implemented by Chef and Waiter classes.
-
-- **Bank Account Types System (hierarchical)** 
-  Model a banking system using hierarchical inheritance where a common `BankAccount` superclass is extended by multiple account types.
+- **Bank Account Types System**  
+  Model a banking system where `SavingsAccount`, `CheckingAccount`, and
+  `FixedDepositAccount` inherit from a common `BankAccount` superclass.
 
 ---
 
-### 🎯 Learning Outcomes
+### 🔸 Single Inheritance
 
-- Understand **code reuse using inheritance**
-- Apply **method overriding and polymorphism**
-- Design **single and multilevel class hierarchies**
+- **Library Management with Books and Authors**  
+  Implement single inheritance where `Author` extends `Book` and displays combined
+  book and author information.
+
+---
+
+### 🔸 Multilevel Inheritance
+
+- **Online Retail Order Management**  
+  Build a multilevel hierarchy (`Order → ShippedOrder → DeliveredOrder`) to represent
+  the order lifecycle and status tracking.
+
+---
+
+### 🔸 Hybrid Inheritance (Using Interfaces)
+
+- **Restaurant Management System**  
+  Simulate hybrid inheritance using a `Person` superclass and a `Worker` interface
+  implemented by `Chef` and `Waiter` classes.
+
+---
+
+## 🎯 Learning Outcomes
+
+- Understand **code reuse and extensibility using inheritance**
+- Apply **method overriding and runtime polymorphism**
+- Design **single, hierarchical, and multilevel class structures**
 - Simulate **multiple inheritance using interfaces**
-- Strengthen **real-world OOP modeling skills**
+- Model **real-world problems using OOP principles**
 
 ---
 
