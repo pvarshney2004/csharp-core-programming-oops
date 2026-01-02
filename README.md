@@ -421,25 +421,25 @@ inheritance**. The problems highlight **polymorphism, method overriding, and int
 
 ## 📝 Practice Problems
 
-- **Animal Hierarchy**  (hierarchical)
+- **Animal Hierarchy (hierarchical)**
   Create an Animal base class with Dog, Cat, and Bird subclasses that override behavior to demonstrate polymorphism.
 
-- **Employee Management System**  (hierarchical)
+- **Employee Management System (hierarchical)**
   Model different employee types (Manager, Developer, Intern) inheriting from a common Employee class with role-specific details.
 
-- **Vehicle and Transport System**  (hierarchical)
+- **Vehicle and Transport System (hierarchical)** 
   Design a Vehicle hierarchy (Car, Truck, Motorcycle) and demonstrate dynamic method dispatch using polymorphism.
   
-- **Library Management with Books and Authors**  (single)
+- **Library Management with Books and Authors (single)** 
   Implement single inheritance where Author extends Book and displays combined book–author information.
 
-- **Online Retail Order Management**  (multilevel)
+- **Online Retail Order Management (multilevel)**
   Build a multilevel hierarchy with Order → ShippedOrder → DeliveredOrder to represent order lifecycle and status tracking.
 
-- **Restaurant Management System**  (hybrid)
+- **Restaurant Management System (hybrid)** 
   Simulate hybrid inheritance using a Person superclass and a Worker interface implemented by Chef and Waiter classes.
 
-- **Bank Account Types System**  (hierarchical)
+- **Bank Account Types System (hierarchical)** 
   Model a banking system using hierarchical inheritance where a common `BankAccount` superclass is extended by multiple account types.
 
 ---
